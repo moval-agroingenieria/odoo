@@ -1,0 +1,196 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* account_banking_communication_wizard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-24 14:52+0000\n"
+"PO-Revision-Date: 2020-09-24 14:52+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "(*) It will be cut to 140 characters after solving the variables."
+msgstr "(*) Limitado a 140 caracteres tras resolver las variables."
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Apply"
+msgstr "Aplicar"
+
+#. module: account_banking_communication_wizard
+#: code:addons/account_banking_communication_wizard/wizards/communication_wizard.py:33
+#, python-format
+msgid "Bank lines have already been generated. Cancel payments before edit the communication field."
+msgstr "Las líneas bancarias ya han sido generadas. Cancele los pagos antes de editar el campo comunicación."
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,field_description:account_banking_communication_wizard.field_communication_wizard_communication_template
+msgid "Communication template"
+msgstr "Plantilla comunicación"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Communication wizard"
+msgstr "Asistente comunicación"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,field_description:account_banking_communication_wizard.field_communication_wizard_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,field_description:account_banking_communication_wizard.field_communication_wizard_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,field_description:account_banking_communication_wizard.field_communication_wizard_display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: account_banking_communication_wizard
+#: model:ir.actions.act_window,name:account_banking_communication_wizard.action_communitacion_wizard
+msgid "Edit Communication"
+msgstr "Editar comunicación"
+
+#. module: account_banking_communication_wizard
+#: code:addons/account_banking_communication_wizard/wizards/communication_wizard.py:50
+#, python-format
+msgid "Error resolving template: {}"
+msgstr "Error resolviendo las variables de la plantilla: {}"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,field_description:account_banking_communication_wizard.field_communication_wizard_id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,field_description:account_banking_communication_wizard.field_account_payment_line_invoice_id
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Invoice amount"
+msgstr "Importe factura"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Invoice number"
+msgstr "Nº Factura"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Invoice set description"
+msgstr "Descripción lote facturas"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,field_description:account_banking_communication_wizard.field_communication_wizard___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,field_description:account_banking_communication_wizard.field_communication_wizard_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,field_description:account_banking_communication_wizard.field_communication_wizard_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model,name:account_banking_communication_wizard.model_account_payment_line
+msgid "Payment Lines"
+msgstr "Líneas de pago"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Payment order description"
+msgstr "Descripción orden de pago"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Payment order number"
+msgstr "Nº Orden de pago"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Payment order {{ payment_order.name }} Ref. {{ payment_line.name }} for invoice {{ invoice.number }}. Amount: {{ invoice.amount_total }}"
+msgstr "La orden {{ payment_order.name }} Ref. {{ payment_line.name }} para {{ invoice.number }}. Importe: {{ invoice.amount_total }}"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "Payment reference"
+msgstr "Referencia del pago"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model.fields,help:account_banking_communication_wizard.field_communication_wizard_communication_template
+msgid "Template with jinja2 variables for Communication fields.\n"
+"It will be cut to 140 characters after solving the variables."
+msgstr "Plantilla con variables jinja2 para el campo Comunicación.\n"
+"Limitada a 140 caracteres tras resolver las variables."
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "The template uses jinja2 variables: {{ object.attribute }}.<br/>\n"
+"                        The available objects are 'payment_order', 'payment_line' and 'invoice'.<br/>\n"
+"                        Commonly used variables:<br/>"
+msgstr "La plantilla usa variables jinja2: {{ object.attribute }}.<br/>\n"
+"                        Los objetos disponibles son 'payment_order' (orden de cobro/pago), 'payment_line' (línea de pago) e 'invoice' (factura).<br/>\n"
+"                        Variables de uso común:<br/>"
+
+#. module: account_banking_communication_wizard
+#: code:addons/account_banking_communication_wizard/wizards/communication_wizard.py:23
+#, python-format
+msgid "There are no items selected."
+msgstr "No hay elementos seleccionados"
+
+#. module: account_banking_communication_wizard
+#: model:ir.model,name:account_banking_communication_wizard.model_communication_wizard
+msgid "Wizard to edit communication field"
+msgstr "Asistente para editar el campo Comunicación"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "{{ invoice.amount_total }}"
+msgstr "{{ invoice.amount_total }}"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "{{ invoice.invoiceset_id.description }}"
+msgstr "{{ invoice.invoiceset_id.description }}"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "{{ invoice.number }}"
+msgstr "{{ invoice.number }}"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "{{ payment_line.name }}"
+msgstr "{{ payment_line.name }}"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "{{ payment_order.description }}"
+msgstr "{{ payment_order.description }}"
+
+#. module: account_banking_communication_wizard
+#: model:ir.ui.view,arch_db:account_banking_communication_wizard.communication_wizard_form
+msgid "{{ payment_order.name }}"
+msgstr "{{ payment_order.name }}"
+
